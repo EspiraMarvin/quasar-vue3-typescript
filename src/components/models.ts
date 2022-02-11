@@ -14,4 +14,14 @@ export interface Job {
   id: string
 }
 
+// union type
 export type OrderTerm = 'location' | 'title' | 'salary'
+
+// union type = function takes an array or string
+// the object passed through as a parameter should either be an arr or str
+
+/*
+function getlength(obj: string | string[]){
+  return obj.length
+}
+*/
